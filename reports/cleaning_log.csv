@@ -1,0 +1,5 @@
+step,rows
+Raw input rows,467537
+Identical duplicate rows removed,0
+Unusable records quarantined,0
+Clean rows retained,467537

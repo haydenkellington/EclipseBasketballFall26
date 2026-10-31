@@ -1,0 +1,28 @@
+feature,group,kind,description
+shot_distance,location/game situation,numeric,Supplied integer distance in feet; retained without clipping.
+x_ft,location/game situation,numeric,LOC_X divided by 10; coordinate in feet.
+y_ft,location/game situation,numeric,LOC_Y divided by 10; coordinate in feet.
+period,location/game situation,numeric,Period number; values above 4 indicate overtime.
+seconds_remaining_period,location/game situation,numeric,Seconds left in the current period; not the shot clock.
+is_home,location/game situation,numeric,1 if the shooter plays for the home team.
+is_overtime,location/game situation,numeric,1 for periods above 4.
+is_playoffs,location/game situation,numeric,1 for playoff archive records.
+is_late_fourth,location/game situation,numeric,1 in Q4 with at most 120 seconds remaining; score margin unknown.
+is_final_5_seconds_period,location/game situation,numeric,1 with at most 5 seconds left in any period.
+shot_type,location/game situation,categorical,Recorded two-point or three-point field goal.
+shot_zone_basic,location/game situation,categorical,Recorded broad shot zone; inconsistent records are flagged in the clean data.
+shot_zone_area,location/game situation,categorical,Recorded directional shot area.
+season,location/game situation,categorical,Season start/end label from source archive; categorical context.
+player_prior_fg_pct_smoothed,offense,numeric,"Player FG% before current date, smoothed toward earlier league FG%."
+player_zone_prior_fg_pct_smoothed,offense,numeric,"Player FG% in current zone before date, smoothed toward earlier zone FG%."
+player_prior_three_point_share,offense,numeric,"Earlier player three-point attempts / all attempts, smoothed toward earlier league share."
+player_prior_attempts,offense,numeric,Attempts observed for player strictly before current date.
+player_zone_prior_attempts,offense,numeric,Attempts observed for player_zone strictly before current date.
+player_has_history,offense,numeric,1 if player has at least one earlier-date attempt.
+player_zone_has_history,offense,numeric,1 if player_zone has at least one earlier-date attempt.
+opponent_prior_fg_pct_smoothed,defense,numeric,"Opponent FG% allowed before date, smoothed; team-level defensive proxy."
+opponent_zone_prior_fg_pct_smoothed,defense,numeric,"Opponent FG% allowed in this zone before date, smoothed; defensive proxy."
+opponent_prior_attempts,defense,numeric,Attempts observed for opponent strictly before current date.
+opponent_zone_prior_attempts,defense,numeric,Attempts observed for opponent_zone strictly before current date.
+opponent_has_history,defense,numeric,1 if opponent has at least one earlier-date attempt.
+opponent_zone_has_history,defense,numeric,1 if opponent_zone has at least one earlier-date attempt.

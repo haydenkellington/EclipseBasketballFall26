@@ -1,0 +1,34 @@
+{
+  "source_files": [
+    {
+      "source_archive": "shotdetail_2024.tar.xz",
+      "sha256": "950100f9c84fe750ae2ac8eaeb82d24cdfb9f60a9ed04ceaa66f64789d7c216e"
+    },
+    {
+      "source_archive": "shotdetail_2025.tar.xz",
+      "sha256": "dcb6c29edda8463132ab62f63118b5cee80d751bcbee9ad98fa38ebe12e6d33c"
+    },
+    {
+      "source_archive": "shotdetail_po_2024.tar.xz",
+      "sha256": "2a972625db433504486d837c38c917146da269939e6d984b8024f148d3d79507"
+    },
+    {
+      "source_archive": "shotdetail_po_2025 (1).tar.xz",
+      "sha256": "3c7cf568af492ff3fa7c348d8de82ac8cff74bd37f1040c0daedc073ed5ede34"
+    }
+  ],
+  "clean_rows": 467537,
+  "clean_columns": 88,
+  "target": "shot_made_flag",
+  "history_policy": "strictly earlier dates; expanding across seasons",
+  "smoothing_prior_attempts": 50.0,
+  "split_train_end": "2026-01-13",
+  "split_validation_end": "2026-03-23",
+  "package_versions": {
+    "pandas": "3.1.0",
+    "numpy": "2.2.3",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "pyarrow": "26.0.0"
+  }
+}

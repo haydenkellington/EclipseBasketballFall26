@@ -1,0 +1,5 @@
+source_archive,source_member,season,season_type,shots,games,players,first_date,last_date,sha256
+shotdetail_2024.tar.xz,shotdetail_2024.csv,2024-25,Regular season,219527,1230,566,2024-10-22,2025-04-13,950100f9c84fe750ae2ac8eaeb82d24cdfb9f60a9ed04ceaa66f64789d7c216e
+shotdetail_2025.tar.xz,shotdetail_2025.csv,2025-26,Regular season,219160,1230,582,2025-10-21,2026-04-12,dcb6c29edda8463132ab62f63118b5cee80d751bcbee9ad98fa38ebe12e6d33c
+shotdetail_po_2024.tar.xz,shotdetail_po_2024.csv,2024-25,Playoffs,14377,84,217,2025-04-19,2025-06-22,2a972625db433504486d837c38c917146da269939e6d984b8024f148d3d79507
+shotdetail_po_2025 (1).tar.xz,shotdetail_po_2025.csv,2025-26,Playoffs,14473,85,221,2026-04-18,2026-06-13,3c7cf568af492ff3fa7c348d8de82ac8cff74bd37f1040c0daedc073ed5ede34
