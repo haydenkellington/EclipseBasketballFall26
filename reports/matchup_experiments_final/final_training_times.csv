@@ -1,0 +1,4 @@
+experiment,features,training_seconds,model_path
+A_original,27,9.053272724151611,c:\Users\shaur\OneDrive\Documents\Desktop\EclipseBasketballFall26\models\matchup_experiments_final\A_original_final.joblib
+B_matchup_percentages,29,9.10220980644226,c:\Users\shaur\OneDrive\Documents\Desktop\EclipseBasketballFall26\models\matchup_experiments_final\B_matchup_percentages_final.joblib
+C_all_matchup_features,33,9.047893047332764,c:\Users\shaur\OneDrive\Documents\Desktop\EclipseBasketballFall26\models\matchup_experiments_final\C_all_matchup_features_final.joblib
