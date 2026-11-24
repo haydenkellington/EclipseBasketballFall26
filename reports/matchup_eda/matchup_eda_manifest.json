@@ -1,0 +1,17 @@
+{
+  "shot_dataset": "C:\\Users\\shaur\\OneDrive\\Documents\\Desktop\\EclipseBasketballFall26\\data\\processed\\nba_shots_with_matchup_features_v2.parquet",
+  "original_shot_dataset": "C:\\Users\\shaur\\OneDrive\\Documents\\Desktop\\EclipseBasketballFall26\\data\\processed\\nba_shots_clean.parquet",
+  "matchup_summary": "C:\\Users\\shaur\\OneDrive\\Documents\\Desktop\\EclipseBasketballFall26\\data\\processed\\matchup_defense_team_game.csv",
+  "shot_rows": 467537,
+  "team_date_observations": 5258,
+  "defending_teams": 30,
+  "matchup_features": [
+    "matchup_defense_prior_fg_pct_smoothed",
+    "matchup_defense_prior_three_pct_smoothed",
+    "matchup_defense_prior_fg_attempts",
+    "matchup_defense_prior_three_attempts",
+    "matchup_defense_prior_games",
+    "matchup_defense_has_history"
+  ],
+  "missing_matchup_feature_rows": 0
+}

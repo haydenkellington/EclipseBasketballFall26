@@ -1,0 +1,5 @@
+,matchup_defense_prior_fg_pct_smoothed,matchup_defense_prior_three_pct_smoothed,opponent_prior_fg_pct_smoothed,opponent_zone_prior_fg_pct_smoothed
+matchup_defense_prior_fg_pct_smoothed,1.0,0.4875698630419081,0.9706263589048313,0.14764204148095417
+matchup_defense_prior_three_pct_smoothed,0.4875698630419081,1.0,0.5133626361964693,0.1380430267947002
+opponent_prior_fg_pct_smoothed,0.9706263589048313,0.5133626361964693,1.0,0.15514243147813153
+opponent_zone_prior_fg_pct_smoothed,0.14764204148095417,0.1380430267947002,0.15514243147813153,1.0
